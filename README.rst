@@ -2,21 +2,9 @@
 Rhasspy Hermes
 ##############
 
-.. image:: https://github.com/rhasspy/rhasspy-hermes/workflows/Tests/badge.svg
-   :target: https://github.com/rhasspy/rhasspy-hermes/actions
-   :alt: Continuous integration
-
-.. image:: https://img.shields.io/pypi/v/rhasspy-hermes.svg
-   :target: https://pypi.org/project/rhasspy-hermes
-   :alt: PyPI package version
-
-.. image:: https://img.shields.io/pypi/pyversions/rhasspy-hermes.svg
-   :target: https://www.python.org
-   :alt: Supported Python versions
-
-.. image:: https://img.shields.io/github/license/rhasspy/rhasspy-hermes.svg
-   :target: https://github.com/rhasspy/rhasspy-hermes/blob/master/LICENSE
-   :alt: License
+Fork of https://github.com/rhasspy/rhasspy-hermes to support the starassistant repo.
+Changes w.r.t. the forked repo:
+- upgraded dataclasses json to be compatible with langchain
 
 Python classes for `Hermes protocol`_ support in Rhasspy_.
 
