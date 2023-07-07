@@ -3,6 +3,7 @@ Rhasspy Hermes
 ##############
 
 Fork of https://github.com/rhasspy/rhasspy-hermes to support the starassistant repo.
+
 Changes w.r.t. the forked repo:
 - upgraded dataclasses json to be compatible with langchain
 
