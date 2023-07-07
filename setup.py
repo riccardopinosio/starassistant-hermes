@@ -1,4 +1,4 @@
-"""Setup script for rhasspy-hermes package"""
+"""Setup script for starassistant-hermes package"""
 from pathlib import Path
 
 import setuptools
@@ -22,11 +22,11 @@ with open(version_path, "r", encoding="utf-8") as version_file:
     version = version_file.read().strip()
 
 setuptools.setup(
-    name="rhasspy-hermes",
+    name="starassistant-hermes",
     version=version,
     author="Michael Hansen",
     author_email="mike@rhasspy.org",
-    url="https://github.com/rhasspy/rhasspy-hermes",
+    url="https://github.com/riccardopinosio/starassistant-hermes",
     packages=setuptools.find_packages(),
     package_data={"rhasspyhermes": ["py.typed"]},
     install_requires=requirements,
